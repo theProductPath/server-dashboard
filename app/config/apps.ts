@@ -14,7 +14,7 @@ export const apps: App[] = [
     id: 'reading-list',
     name: 'Reading List',
     description: 'Track your books, manage your reading progress, and discover new reads.',
-    url: 'http://reading-list.local:3010',
+    url: 'http://myapp.dev.local',
     icon: '📚',
     status: 'online',
     color: 'from-purple-500 to-indigo-600',
