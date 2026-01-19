@@ -19,6 +19,15 @@ export const apps: App[] = [
     status: 'online',
     color: 'from-purple-500 to-indigo-600',
   },
+  {
+    id: 'mission-realestate',
+    name: 'mission-realestate',
+    description: 'Mission: Review Nashville Homes',
+    url: 'http://dev.local:3001/mission-realestate/realestate_review',
+    icon: '🏠',
+    status: 'online',
+    color: 'from-orange-500 to-amber-600',
+  },
   // Add more apps below:
   // {
   //   id: 'app-name',
