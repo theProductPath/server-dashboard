@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 ```
 
+## To add a new item to PM2:
+1. Go to the directory where you want to start the server.
+2. use the pm2 serve command, specifying the folder and the port: pm2 serve ./mission-crm 3002 --spa --name "mission-crm"
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.

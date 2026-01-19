@@ -22,11 +22,20 @@ export const apps: App[] = [
   {
     id: 'mission-realestate',
     name: 'mission-realestate',
-    description: 'Mission: Review Nashville Homes',
+    description: 'Mission: Mission: Payment Focus - This tool highlights payments with late fees so you can review them for accuracy',
     url: 'http://dev.local:3001/mission-realestate/realestate_review',
     icon: '🏠',
     status: 'online',
     color: 'from-orange-500 to-amber-600',
+  },
+  {
+    id: 'mission-crm',
+    name: 'mission-crm',
+    description: 'Mission: Review Accounts, Contacts, and Opportunities before import',
+    url: 'http://dev.local:3002/mission-crm/crm_review',
+    icon: '🏠',
+    status: 'online',
+    color: 'from-blue-500 to-blue-600',
   },
   // Add more apps below:
   // {
