@@ -32,7 +32,7 @@ export const apps: App[] = [
     id: 'mission-crm',
     name: 'mission-crm',
     description: 'Mission: Review Accounts, Contacts, and Opportunities before import',
-    url: 'http://dev.local:3002/mission-crm/crm_review',
+    url: 'http://dev.local:3002/mission-crm/crm_review.html',
     icon: '🏠',
     status: 'online',
     color: 'from-blue-500 to-blue-600',
