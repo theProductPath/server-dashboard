@@ -16,7 +16,10 @@ bun dev
 
 ## To add a new item to PM2:
 1. Go to the directory where you want to start the server.
-2. use the pm2 serve command, specifying the folder and the port: pm2 serve ./mission-crm 3002 --spa --name "mission-crm"
+2. use the pm2 serve command, specifying the folder and the port: pm2 serve ./demos/mission-crm 3002 --spa --name "mission-crm"
+
+# pm2 serve ./demos/mission-crm 3002 --spa --name "mission-crm"
+# And to add to the server dashboard, you need to include the specific html page in the URL: /crm_review.html
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
