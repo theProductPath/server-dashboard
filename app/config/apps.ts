@@ -23,7 +23,7 @@ export const apps: App[] = [
     id: 'mission-realestate',
     name: 'mission-realestate',
     description: 'Mission: Mission: Payment Focus - This tool highlights payments with late fees so you can review them for accuracy',
-    url: 'http://dev.local:3001/demos/mission-realestate/realestate_review.html',
+    url: 'http://dev.local:3003/demos/mission-realestate/realestate_review.html',
     icon: '🏠',
     status: 'online',
     color: 'from-orange-500 to-amber-600',
